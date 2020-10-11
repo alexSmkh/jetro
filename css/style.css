@@ -7,3 +7,58 @@ html {
 *::after {
   box-sizing: inherit;
 }
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  display: inline-block
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 960px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+.header {
+   background-color: #fcfcfc;
+}
+
+.header-inner {
+  height: 78px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: 'Bebas Neue', cursive;
+}
+
+.header__logo a {
+  font-size: 36px;
+  color: #e8603c;
+}
+
+.header__logo span {
+  color: #f3af9d;
+}
+
+.header__menu a {
+  color: #b9b9b9;
+  font-size: 16px;
+}
+
+.header__menu li + li {
+  margin-left: 28px;
+}
+
+.header__menu a:hover {
+  transition: all .5s;
+  color: #e8663c;
+}
